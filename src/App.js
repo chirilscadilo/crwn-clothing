@@ -1,4 +1,4 @@
-import CategoryMenu from "./components/categories-menu/categories-menu";
+import CategoriesMenu from "./components/categories-menu/categories-menu";
 
 const App = () => {
   const categories = [
@@ -29,7 +29,7 @@ const App = () => {
     },
   ];
 
-  return <CategoryMenu categories={categories} />;
+  return <CategoriesMenu categories={categories} />;
 };
 
 export default App;
